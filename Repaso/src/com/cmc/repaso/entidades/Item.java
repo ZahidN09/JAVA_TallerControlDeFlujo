@@ -54,4 +54,10 @@ public class Item {
 		System.out.println("Productos Vendidos: " + this.productosVendidos);
 	}
 	
+	public void vender(int productosVendidos) {
+		if(productosVendidos < 0 || productosVendidos > this.productosActuales) return;
+		this.productosActuales -= productosVendidos;
+		this.productosVendidos += productosVendidos;
+	}
+	
 }
