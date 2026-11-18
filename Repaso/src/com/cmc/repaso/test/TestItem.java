@@ -1,0 +1,13 @@
+package com.cmc.repaso.test;
+
+import com.cmc.repaso.entidades.Item;
+
+public class TestItem {
+
+	public static void main(String[] args) {
+		Item i1 = new Item("Lentes",20);
+		
+		i1.imprimir();
+	}
+
+}
