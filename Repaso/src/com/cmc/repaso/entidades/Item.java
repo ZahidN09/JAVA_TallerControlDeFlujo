@@ -47,4 +47,11 @@ public class Item {
 		this.productosVendidos = productosVendidos;
 	}
 	
+	public void imprimir() {
+		System.out.println("********* Producto '' " + this.nombre +" '' *********");
+		System.out.println("Productos Actuales: " + this.productosActuales);
+		System.out.println("Productos Devueltos: " + this.productosDevueltos);
+		System.out.println("Productos Vendidos: " + this.productosVendidos);
+	}
+	
 }
