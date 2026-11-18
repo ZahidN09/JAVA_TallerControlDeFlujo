@@ -33,4 +33,12 @@ public class Estudiante {
 		this.resultado = resultado;
 	}
 	
+	public void calificar(double nota) {
+		this.nota = nota;
+		if(nota < 8) {
+			this.resultado = "F";	
+		}else {
+			this.resultado = "A";
+		}
+	}
 }
