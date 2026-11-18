@@ -22,7 +22,11 @@ public class Producto {
 	}
 
 	public void setPrecio(double precio) {
-		this.precio = precio;
+		if(precio < 0) {
+			this.precio = -precio;
+		}else {
+			this.precio = precio;
+		}
 	}
 		
 }
