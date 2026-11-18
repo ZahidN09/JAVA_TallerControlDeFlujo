@@ -28,5 +28,11 @@ public class Producto {
 			this.precio = precio;
 		}
 	}
+	
+	public double calcularPrecioPromo(double descuento) {
+		double precioFinal = this.precio*(1- descuento/100);
+		
+		return precioFinal;
+	}
 		
 }
