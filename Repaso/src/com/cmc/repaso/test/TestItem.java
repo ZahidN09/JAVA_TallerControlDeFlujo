@@ -8,6 +8,8 @@ public class TestItem {
 		Item i1 = new Item("Lentes",20);
 		
 		i1.imprimir();
+		i1.vender(15);
+		i1.imprimir();
 	}
 
 }
