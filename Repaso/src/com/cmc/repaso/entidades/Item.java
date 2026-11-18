@@ -60,4 +60,10 @@ public class Item {
 		this.productosVendidos += productosVendidos;
 	}
 	
+	public void devolver(int productosDevueltos) {
+		if(productosDevueltos < 0 || productosDevueltos > this.productosVendidos) return;
+		this.productosActuales += productosDevueltos;
+		this.productosVendidos -= productosDevueltos;
+		this.productosDevueltos += productosDevueltos;
+	}
 }
