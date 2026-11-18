@@ -10,6 +10,8 @@ public class TestItem {
 		i1.imprimir();
 		i1.vender(15);
 		i1.imprimir();
+		i1.devolver(5);
+		i1.imprimir();
 	}
 
 }
