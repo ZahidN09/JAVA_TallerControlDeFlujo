@@ -12,6 +12,14 @@ public class TestItem {
 		i1.imprimir();
 		i1.devolver(5);
 		i1.imprimir();
+		
+		Item i2 = new Item("Cascos",100);
+		
+		i2.imprimir();
+		i2.vender(45);
+		i2.imprimir();
+		i2.devolver(20);
+		i2.imprimir();
 	}
 
 }
